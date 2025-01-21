@@ -1,0 +1,32 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - whatnot.etamhof
+  resources:
+  - omsoperators
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - whatnot.etamhof
+  resources:
+  - omsoperators/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - whatnot.etamhof
+  resources:
+  - omsoperators/status
+  verbs:
+  - get
+  - patch
+  - update

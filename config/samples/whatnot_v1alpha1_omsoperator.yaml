@@ -1,0 +1,9 @@
+apiVersion: whatnot.etamhof/v1alpha1
+kind: OmsOperator
+metadata:
+  labels:
+    app.kubernetes.io/name: http-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: omsoperator-samples
+spec:
+  endPoint: 3

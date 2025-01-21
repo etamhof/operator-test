@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- whatnot_v1alpha1_omsoperator.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
