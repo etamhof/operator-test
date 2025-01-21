@@ -29,6 +29,7 @@ type OmsOperatorSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	EndPoint int `json:"endPoint,omitempty"`
+	Useless  int `json:"useless,omitempty"`
 }
 
 // OmsOperatorStatus defines the observed state of OmsOperator
