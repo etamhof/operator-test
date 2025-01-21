@@ -41,6 +41,8 @@ spec:
             properties:
               endPoint:
                 type: integer
+              useless:
+                type: integer
             type: object
           status:
             description: OmsOperatorStatus defines the observed state of OmsOperator
